@@ -99,20 +99,25 @@
         <legend>An interesting fact about you!</legend>
 
         <label class="form__field first">
-          Do you love cats?
+         Do you love cats?
 
-          <input
-            type="radio"
-            name="loveCats"
-            value="yes"
-          >
-          Yes
-          <input
-            type="radio"
-            name="loveCats"
-            value="no"
-          >
-          No
+          <label for="form__field">
+            <input
+                type="radio"
+                name="loveCats"
+                value="yes"
+            >
+            Yes
+          </label>
+
+          <label for="form__field">
+            <input
+              type="radio"
+              name="loveCats"
+              value="no"
+            >
+            No
+          </label>
         </label>
 
         <label class="form__field">
@@ -140,7 +145,7 @@
           <input
             type="range"
             name="range"
-            min="1"
+            min="0"
             max="10"
             value="0"
             step="1"
