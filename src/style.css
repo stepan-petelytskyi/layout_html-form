@@ -5,9 +5,17 @@
 }
 
 .fieldset {
-  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.fieldset:first-child {
+  margin-top: 8px;
 }
 
 .first {
   margin-top: 0;
+}
+
+.button {
+  margin-top: 20px;
 }
